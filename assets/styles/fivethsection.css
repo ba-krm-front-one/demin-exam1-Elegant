@@ -1,0 +1,44 @@
+.ba-contact-form {
+  max-width: 730px;
+  margin: 70px auto 0; }
+  .ba-contact-form__input {
+    flex-grow: 1;
+    width: 302px;
+    min-width: 100px;
+    background: none;
+    border-bottom: 2px solid #afafaf;
+    font-size: 18px;
+    line-height: 40px;
+    font-style: italic;
+    margin: 0 60px 100px 0;
+    padding-left: 25px; }
+    .ba-contact-form__input:nth-child(3) {
+      width: 670px; }
+  .ba-contact-form__submit {
+    width: 177px;
+    height: 54px;
+    background: none;
+    border: 3px solid #fff;
+    font-size: 24px; }
+    .ba-contact-form__submit:hover {
+      box-shadow: inset 1px 1px 1px 0 #aaa;
+      transform: translateY(1px); }
+
+.ba-contact {
+  background: url("../img/bgform.jpg") 50% no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 103px 0 122px; }
+  .ba-contact hr {
+    background-color: #fff;
+    margin: 54px auto 60px; }
+  .ba-contact__social-icon {
+    padding: 15px;
+    color: #fff; }
+    .ba-contact__social-icon:hover {
+      border-radius: 50%;
+      border-top: 2px dotted #fff; }
+
+@media all and (max-width: 330px) {
+  .ba-contact__social-icon {
+    padding: 10px; } }

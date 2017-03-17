@@ -37,3 +37,9 @@
     right: 135px;
   }
 }
+
+@media all and (max-width: 800px){
+  .ba-about__img{
+    display: none;
+  }
+}

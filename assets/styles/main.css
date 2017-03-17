@@ -757,6 +757,10 @@ img {
     bottom: -115px;
     right: 135px; }
 
+@media all and (max-width: 800px) {
+  .ba-about__img {
+    display: none; } }
+
 .ba-our-work {
   text-align: center;
   padding: 103px 0 80px; }
@@ -825,6 +829,52 @@ img {
   .ba-button:hover {
     box-shadow: 0 0 15px 3px blue;
     background-color: lightblue; }
+
+input {
+  outline: none;
+  border: none; }
+
+.ba-contact-us {
+  background: url("../img/bgform.jpg") 50% no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 103px 0 122px; }
+  .ba-contact-us hr {
+    background-color: #fff;
+    margin: 54px auto 60px; }
+  .ba-contact-us__form {
+    max-width: 730px;
+    margin: 70px auto 0; }
+    .ba-contact-us__form--input {
+      flex-grow: 1;
+      width: 302px;
+      min-width: 100px;
+      background: none;
+      border-bottom: 2px solid #afafaf;
+      font-size: 18px;
+      line-height: 40px;
+      font-style: italic;
+      margin: 0 60px 100px 0;
+      padding-left: 25px; }
+      .ba-contact-us__form--input:nth-child(3) {
+        width: 670px; }
+    .ba-contact-us__form--send {
+      width: 177px;
+      height: 54px;
+      background: none;
+      border: 3px solid #fff;
+      font-size: 24px; }
+      .ba-contact-us__form--send:hover {
+        box-shadow: 0 0 15px 3px blue;
+        background-color: lightseagreen; }
+  .ba-contact-us__icon {
+    padding: 15px;
+    text-decoration: none; }
+    .ba-contact-us__icon:hover {
+      background-color: blue;
+      transition-property: background-color;
+      transition-duration: 0.5s;
+      border-radius: 100%; }
 
 body {
   font: 400 16px "Lato", sans-serif;

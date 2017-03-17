@@ -1,0 +1,64 @@
+input {
+  outline: none;
+  border: none;
+}
+
+.ba-contact-us {
+  background: url("../img/bgform.jpg") 50% no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 103px 0 122px;
+
+  hr {
+    background-color: #fff;
+    margin: 54px auto 60px;
+  }
+
+  &__form {
+    max-width: 730px;
+    margin: 70px auto 0;
+
+    &--input {
+      flex-grow: 1;
+      width: 302px;
+      min-width: 100px;
+      background: none;
+      border-bottom: 2px solid #afafaf;
+      font-size: 18px;
+      line-height: 40px;
+      font-style: italic;
+      margin: 0 60px 100px 0;
+      padding-left: 25px;
+
+      &:nth-child(3){
+        width: 670px;
+      }
+    }
+
+    &--send{
+      width: 177px;
+      height: 54px;
+      background: none;
+      border: 3px solid #fff;
+      font-size: 24px;
+
+      &:hover{
+        box-shadow: 0 0 15px 3px blue;
+        background-color: lightseagreen;
+      }
+    }
+  }
+  &__icon {
+    padding: 15px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: blue;
+      transition-property: background-color;
+      transition-duration: 0.5s;
+      border-radius: 100%;
+    }
+  }
+}
+
+
