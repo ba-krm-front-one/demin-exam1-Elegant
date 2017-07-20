@@ -1,0 +1,65 @@
+@import "normalize.scss";
+@import "layout.scss";
+@import "variables.scss";
+@import "firstsection.scss";
+@import "secondsection.scss";
+@import "thirdsection.scss";
+@import "fourthsection.scss";
+@import "fivethsection.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700|Raleway:700');
+
+body {
+  font: 400 16px $lato;
+  color: #fff;
+  width: 100%;
+  min-height: 100%;
+}
+
+hr{
+  width: 86px;
+  height: 2px;
+  border: none;
+  background-color:  #222;
+}
+
+.ba-container {
+  max-width: 1200px;
+
+  &__about {
+    position: relative;
+  }
+}
+
+.ba-white {
+  font-family: $raleway;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+.ba-black {
+  font-family: $raleway;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 60px;
+  color: #222;
+}
+
+.ba-container__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#scrollup {
+  position: fixed; /* фиксированная позиция */
+  opacity: 0.8; /* прозрачность */
+  padding: 15px 10px 10px; /* отступы */
+  background: #aaa;
+  border-radius: 5px; /* скругление углов */
+  left: 10px; /* отступ слева */
+  bottom: 10px; /* отступ снизу */
+  display: none; /* спрятать блок */
+  cursor: pointer;
+}
